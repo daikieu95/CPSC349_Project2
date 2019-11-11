@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import {Container,Card,Form,Row,Col,Image,Button,InputGroup,Spinner} from "react-bootstrap";
+import { Link } from "react-router-dom";
+import {Container, Card, Form, Row, Col, Image, Button, Spinner} from "react-bootstrap";
 
 export default class Register extends Component {
   constructor(props) {
@@ -147,21 +148,11 @@ export default class Register extends Component {
       validated,
       checking,
       error,
-      img,
       username,
       email,
       password,
       repassword,
-      link
     } = this.state;
-
-    let imageContent = (
-      <span className="text-muted">Choose your portfolio image.</span>
-    );
-
-    if (img) {
-      imageContent = <Image src={img} alt="Main" fluid />;
-    }
 
     return (
       <main role="main">
@@ -246,9 +237,7 @@ export default class Register extends Component {
                 {!checking && (
                   <Row>
                     <Col className="text-center">
-                      <Button variant="primary" type="submit" block>
-                        Sign Up
-                      </Button>
+                      <Link to="/login"> <Button onClick={e => window.alert("Successfully Registered!")} >Submit</Button> </Link>
                     </Col>
                   </Row>
                 )}

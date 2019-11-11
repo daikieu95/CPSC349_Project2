@@ -25,6 +25,7 @@ export default class LoginPage extends Component {
     };
   }
 
+
   isValid(form) {
     const data = new FormData(form);
     const email = data.get("email");
@@ -148,14 +149,16 @@ export default class LoginPage extends Component {
                 {!checking && (
                   <Row>
                     <Col className="text-center">
-                      <Button
+                      <Link to="/main"><Button
                         className="mb-4"
                         variant="primary"
                         type="submit"
+                        name='signup'
                         block
                       >
                         Login
-                      </Button>
+                      </Button> </Link>
+
                     </Col>
                   </Row>
                 )}

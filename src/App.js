@@ -31,7 +31,6 @@ class App extends Component {
 						<li><NavLink to="/about">About</NavLink></li>
 						<li><NavLink to="/register">Register</NavLink></li>
 						<li><NavLink to="/login">Login</NavLink></li>
-            <li><NavLink to="/main">Main</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
 						<li><NavLink to="/shopping">Shopping</NavLink> </li>
 						<br />

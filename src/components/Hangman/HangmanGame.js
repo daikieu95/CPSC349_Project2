@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { randomWord } from "./words";
+import { Link } from "react-router-dom";
 
 import step0 from "./images/0.jpg";
 import step1 from "./images/1.jpg";
@@ -98,7 +99,7 @@ class Hangman extends Component {
 				<p className='text-center'>
 					<img src={this.props.images[this.state.mistake]} alt={altText} />
 				</p>
-				<p className='text-center text-dark'>Guess the Programming Language ?</p>
+				<p className='text-center text-dark'>What animal is it ?</p>
 				<p className='Hangman-word text-center'>
 					{!gameOver ? this.guessedWord() : this.state.answer}{" "}
 				</p>
@@ -107,9 +108,8 @@ class Hangman extends Component {
 
 				<div>
 					<p className='text-center'>
-						<button className='Hangman-reset' onClick={this.resetButton}>
-							Reset
-						</button>
+						<button className='Hangman-reset' onClick={this.resetButton}>Reset</button>
+						<Link to="/main"> <button className='Hangman-quit' onClick> Quit!</button></Link>
 					</p>
 				</div>
 			</div>

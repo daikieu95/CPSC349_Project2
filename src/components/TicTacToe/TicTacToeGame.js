@@ -63,7 +63,7 @@ render() {
     const latestMoveSquare = step.latestMoveSquare;
     const col = 1 + latestMoveSquare % 5;
     const row = 1 + Math.floor(latestMoveSquare / 5);
-    const desc = move ?
+    const desc = move ? 
       `Turn #${move} --> (Row: ${row}, Col: ${col})` :
       'Restart!';
     return (
@@ -104,8 +104,8 @@ render() {
       </div>
       <div className="game-info">
         <div>{status}</div>
-        <button onClick={() => this.handleSortToggle()}>
-          {isAscending ? 'descending' : 'ascending'}
+        <button className="button" onClick={() => this.handleSortToggle()}>
+          {isAscending ? 'Descending' : 'Ascending'}
         </button>
         <ol>{moves}</ol>
       </div>

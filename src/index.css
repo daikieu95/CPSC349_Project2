@@ -267,8 +267,15 @@ ol, ul {
 .move-list-item-selected{
   float: left;
   font-weight: bold;
-  color: blue;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
 }
+
 
 
  /* Bootstrap starts here*/

@@ -1,9 +1,10 @@
- # CPSC349_Project 2 - Build a Web Game World by using ReactJS
- 
+ ### CPSC349_Project 2 - Build a Web Game by using ReactJS
  If you'd like to contribute, help me create more games and upload into this branch.
+ 
+ ### Documentation
+  Follow all these instructions to run this project.
   
  ### Dependencies
-
   - Node: [http://nodejs.org/](http://nodejs.org/)
   - ReactJS: [https://reactjs.org](https://reactjs.org)
   - Bootstrap: [https://getbootstrap.com](https://getbootstrap.com)
@@ -28,5 +29,5 @@ Choose **Facebook Login** and it will appear in the side menu. You will find inp
 **Step 3 - Connect to Facebook SDK**
 Be sure to replace the 'APP_ID' from Facebook dashboard to the file public/index.html and also src/components/Facebook.js
 
-More Instruction how to connect FacebookSDK using Firebase
+**More Instruction how to connect FacebookSDK using Firebase**
 [https://www.tutorialspoint.com/firebase/firebase_facebook_authentication.htm]

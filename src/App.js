@@ -19,6 +19,7 @@ import HangmanGame from "./components/Hangman/HangmanGame";
 import SnakeGame from './components/Snake/SnakeGame';
 import TicTacToeGame from './components/TicTacToe/TicTacToeGame';
 
+
 class App extends Component {
 	render() {
 	return (

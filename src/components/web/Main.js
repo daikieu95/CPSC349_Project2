@@ -14,6 +14,8 @@ class Main extends Component {
   render() {
     return (
       <div>
+      <p> You are Logged In! </p>
+      <Link to="/home"> <button onclick = "facebookSignOut()"> Log Out! </button> </Link>
         <h2>List of Games</h2>
         <p>Here are all the games in our website that organized ino 2D or 3D placed within these categories.
         Have fun! & Enjoy :)</p>

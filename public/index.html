@@ -13,6 +13,9 @@
     -->
 		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+		<script src="https://apis.google.com/js/api:client.js"></script>
+		<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <link rel='stylesheet' type='text/css' href='/resources/tutorial/css/example.css'>
 
 		<link
 			rel="stylesheet"
@@ -33,9 +36,56 @@
 		<title>React App</title>
 	</head>
 	<body>
-		<noscript>You need to enable JavaScript to run this app.</noscript>
-		<div id="root"></div>
-		<!--
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '2409252209393259',
+        autoLogAppEvents: true,
+        xfbml: true,
+        version: 'v2.11'
+      });
+
+      // Broadcast an event when FB object is ready
+      var fbInitEvent = new Event('FBObjectReady');
+      document.dispatchEvent(fbInitEvent);
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { return; }
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+	<script>
+	    var provider = new firebase.auth.FacebookAuthProvider();
+
+	    function facebookSignIn() {
+	    firebase.auth().signInWithPopup(provider)
+	        .then(function(result) {
+	            var token = result.credential.accessToken;
+	            var user = result.user;
+	        }).catch(function(error) {
+	            console.log(error.code);
+	            console.log(error.message);
+	        });
+	    }
+
+	    function facebookSignOut() {
+	    firebase.auth().signOut()
+	        .then(function() {
+	            console.log('Successful Signout!');
+	        }, function(error) {
+	            console.log('Signout failed');
+	        });
+	    }
+	</script>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -45,5 +95,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-	</body>
+</body>
+
 </html>

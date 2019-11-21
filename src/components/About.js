@@ -35,31 +35,6 @@ export default class About extends Component {
           </div>
       </div>
       </div>
-      <div className="row py-6">
-      <div className="col-md-6">
-          <div className="card">
-          <Image src={member3} alt="member3" fluid />
-          <div className="description">
-             <h2 style={{color: "white"}}>Member # 3</h2>
-             <p style={{color: "white"}} className="role">Role: Developer</p>
-             <p style={{color: "white"}}>Position: Front-End</p>
-             <p style={{color: "white"}}>member3@csu.fullerton.edu</p>
-          </div>
-          </div>
-          </div>
-
-      <div className="col-md-6">
-          <div className="card">
-          <Image src={member4} alt="member4" fluid />
-          <div className="description">
-             <h2 style={{color: "white"}}>Member # 4</h2>
-             <p style={{color: "white"}} className="role">Role: Developer</p>
-             <p style={{color: "white"}}>Position: Front-End</p>
-             <p style={{color: "white"}}>member4@csu.fullerton.edu</p>
-          </div>
-          </div>
-      </div>
-      </div>
       <br />
       </div>
 

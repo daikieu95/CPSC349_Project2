@@ -22,7 +22,7 @@ Step 1 - Enable Facebook Auth
 We need to open Firebase dashboard and click Auth in side menu. Next, we need to choose SIGN-IN-METHOD in tab bar. We will enable Facebook auth and leave this open since we need to add App ID and App Secret when we finish step 2.
 
 Step 2 - Create Facebook App
-To enable Facebook authentication, we need to create the Facebook app. Click on this link to start. Once the app is created, we need to copy App ID and App Secret to the Firebase page, which we left open in step 1. We also need to copy OAuth Redirect URI from this window into the Facebook app. You can find + Add Product inside side menu of the Facebook app dashboard.
+To enable Facebook authentication, we need to create the Facebook app. Click on this [https://developers.facebook.com/] to start. Once the app is created, we need to copy App ID and App Secret to the Firebase page, which we left open in step 1. We also need to copy OAuth Redirect URI from this window into the Facebook app. You can find + Add Product inside side menu of the Facebook app dashboard.
 
 Choose Facebook Login and it will appear in the side menu. You will find input field Valid OAuth redirect URIs where you need to copy the OAuth Redirect URI from Firebase.
 

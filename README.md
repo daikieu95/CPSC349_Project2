@@ -1,6 +1,6 @@
- # CPSC349_Project 2 - Build a Web Front-End by using ReactJS
+ # CPSC349_Project 2 - Build a Web Game World by using ReactJS
  
- If you'd like to contribute, help me close issues.
+ If you'd like to contribute, help me create more games and upload into this branch.
   
  ### Dependencies
 

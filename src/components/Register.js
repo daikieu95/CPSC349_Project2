@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import {Container, Card, Form, Row, Col, Image, Button, Spinner} from "react-bootstrap";
+import gamer_logo from "./gamer_logo.jpg";
 
 export default class Register extends Component {
   constructor(props) {
@@ -158,7 +159,7 @@ export default class Register extends Component {
       <main role="main">
         <Container className="my-5 text-center">
           <h1 className="my-5">Registration</h1>
-
+          <center> <Image src={gamer_logo} alt="gamer_logo" fluid /> </center>
           <Card>
             <Card.Body>
               <Form

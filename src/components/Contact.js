@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {
   Container,
   Card,
+  Image,
   Form,
   Row,
   Col,
@@ -9,6 +10,7 @@ import {
   Button,
   Modal
 } from "react-bootstrap";
+import contact_error from "./contact_error.jpg";
 
 export default class ContactPage extends Component {
   constructor(props) {
@@ -87,7 +89,7 @@ export default class ContactPage extends Component {
     if (this.isValid(form)) {
       this.setState({ checking: true });
 
-      
+
     } else {
       this.setState({ checking: false, error: "Please check the form." });
     }
@@ -100,6 +102,7 @@ export default class ContactPage extends Component {
       <main role="main">
         <Container className="my-5 text-center">
           <h1 className="my-5">Contact Us</h1>
+          <center> <Image src={contact_error} alt="gamer_logo" fluid /> </center>
 
           <Card>
             <Card.Body>

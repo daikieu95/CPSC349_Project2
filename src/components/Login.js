@@ -9,7 +9,7 @@ import {
   Row,
   Col,
 } from "react-bootstrap";
-import gamer_logo from "./gamer_logo.jpg";
+import login from "./login.jpg";
 
 export default class LoginPage extends Component {
 
@@ -21,7 +21,7 @@ export default class LoginPage extends Component {
       <main role="main">
         <Container className="my-5">
           <h1 className="my-5 text-center">Log In</h1>
-          <center> <Image src={gamer_logo} alt="gamer_logo" fluid /> </center>
+          <center> <Image src={login} alt="gamer_logo" fluid /> </center>
           <Card>
             <Card.Body>
               <Form

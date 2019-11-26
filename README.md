@@ -19,7 +19,7 @@
 ### Setup Firebase Console to login into Facebook Authentication
 In this Project, we will authenticate users with Firebase Facebook authentication.
 
- ### intrustion on how to use the program
+ ### Intrustion on how to use the program
 
 **Step 1 - Enable Facebook Auth**
 We need to open Firebase dashboard and click **Auth** in side menu. Next, we need to choose **SIGN-IN-METHOD** in tab bar. We will enable Facebook auth and leave this open since we need to add **App ID** and **App Secret** when we finish step 2.

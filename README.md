@@ -1,5 +1,5 @@
  ### CPSC349_Project 2 - Build a Web Game by using ReactJS
- Team name: The Exile
+ Team name: The Exiles
  If you'd like to  contribute more to our project, help us create more games and upload into this branch.
  
  ### Sumary of the project

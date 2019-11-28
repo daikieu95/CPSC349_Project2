@@ -9,12 +9,25 @@ import alien_invasion from "./GamePics/alien_invasion.jpg";
 import pacman from "./GamePics/pacman.jpg";
 import mario from "./GamePics/mario.jpg";
 import crossy_road from "./GamePics/crossy_road.jpg";
+import ngau_hung from "./Music/ngau_hung.mp3";
 
 class Main extends Component {
+  playAudio() {
+    const audioEl = document.getElementsByClassName("audio-element")[0]
+    audioEl.play()
+  }
   render() {
     return (
       <div>
       <p> You are Logged In! </p>
+      <div>
+        <button onClick={this.playAudio}>
+          <span>Try Me!</span>
+        </button>
+        <audio className="audio-element">
+          <source src={ngau_hung}></source>
+        </audio>
+      </div>
       <Link to="/home"> <button onclick = "facebookSignOut()"> Log Out! </button> </Link>
         <h2>List of Games</h2>
         <p>Here are all the games in our website that organized ino 2D or 3D placed within these categories.

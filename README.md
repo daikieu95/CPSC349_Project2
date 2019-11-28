@@ -1,8 +1,9 @@
  ### CPSC349_Project 2 - Build a Web Game by using ReactJS
- If you'd like to contribute, help me create more games and upload into this branch.
+ Team name: The Exiles
+ If you'd like to  contribute more to our project, help us create more games and upload into this branch.
  
- ### Documentation
-  Follow all these instructions to run this project.
+ ### Sumary of the project
+ The project using mostly Reactjs to create front end Firebase for backend. The website has several  feature. First, our website front end is quite good and fancy together with some tag like many other website. People can login in directly through facebook to go in our website to play reacjs game that we made. People can contact us through our website and aslo to buy some cool gaming device through our website. Of course you can not actually buy it for now since we do not have money to own the real stuff yet. However it can become real in the future when we have money. People can also download the pygame that we make in the pass to computer and play it.
   
  ### Dependencies
   - Node: [http://nodejs.org/](http://nodejs.org/)
@@ -17,6 +18,8 @@
 
 ### Setup Firebase Console to login into Facebook Authentication
 In this Project, we will authenticate users with Firebase Facebook authentication.
+
+ ### Intrustion on how to use the program
 
 **Step 1 - Enable Facebook Auth**
 We need to open Firebase dashboard and click **Auth** in side menu. Next, we need to choose **SIGN-IN-METHOD** in tab bar. We will enable Facebook auth and leave this open since we need to add **App ID** and **App Secret** when we finish step 2.

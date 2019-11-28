@@ -34,3 +34,16 @@ Be sure to replace the 'APP_ID' from Facebook dashboard to the file public/index
 
 **More Instruction how to connect FacebookSDK using Firebase**
 [https://www.tutorialspoint.com/firebase/firebase_facebook_authentication.htm]
+
+### Music Content
+Music in this Project
+
+### Song:
+Ngau Hung
+### Artist:
+Hoaprox
+### Album:
+Ngau Hung
+### Licensed to YouTube by
+RouteNote (on behalf of Techbeat Records); Routenote (Publishing), and 2 Music Rights Societies
+[https://www.youtube.com/watch?v=xMjSp_BkSY4]

@@ -10,8 +10,21 @@ export default class About extends Component {
   render() {
     return (
       <div className="true-about">
-      <div className="row py-4">
-      <div className="col-md-6">
+      <div className="row py-3">
+
+      <div className="col-md-4">
+          <div className="card">
+          <Image src={trong} alt="trong" fluid />
+          <div className="description">
+             <h2 style={{color: "white"}}>Trong To</h2>
+             <p style={{color: "white"}} className="role">Role: Developer</p>
+             <p style={{color: "white"}}>Position: Front-End</p>
+             <p style={{color: "white"}}>votinhnobody@csu.fullerton.edu</p>
+          </div>
+          </div>
+      </div>
+
+      <div className="col-md-4">
           <div className="card">
               <Image src={dennis} alt="dennis" fluid />
              <div className="description">
@@ -23,17 +36,18 @@ export default class About extends Component {
           </div>
           </div>
 
-      <div className="col-md-6">
+      <div className="col-md-4">
           <div className="card">
-          <Image src={trong} alt="trong" fluid />
+          <Image src={member3} alt="trong" fluid />
           <div className="description">
-             <h2 style={{color: "white"}}>Trong To</h2>
+             <h2 style={{color: "white"}}>Seong Soo Hong</h2>
              <p style={{color: "white"}} className="role">Role: Developer</p>
              <p style={{color: "white"}}>Position: Front-End</p>
-             <p style={{color: "white"}}>votinhnobody@csu.fullerton.edu</p>
+             <p style={{color: "white"}}>seongsoohong@csu.fullerton.edu</p>
           </div>
           </div>
       </div>
+
       </div>
       <br />
       </div>

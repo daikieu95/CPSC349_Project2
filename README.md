@@ -32,7 +32,7 @@ To enable Facebook authentication, we need to create the Facebook app. Click on 
 Choose **Facebook Login** and it will appear in the side menu. You will find input field **Valid OAuth redirect URIs** where you need to copy the **OAuth Redirect URI** from Firebase.
 
 **Step 3 - Connect to Facebook SDK**
-Be sure to replace the 'APP_ID' from Facebook dashboard to the file public/index.html and also src/components/Facebook.js
+Be sure to replace the 'APP_ID' from Facebook dashboard to the file public/index.html and also src/components/Facebook.js by your own APP_ID number
 
 **More Instruction how to connect FacebookSDK using Firebase**
 [https://www.tutorialspoint.com/firebase/firebase_facebook_authentication.htm]
